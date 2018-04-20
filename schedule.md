@@ -1,11 +1,11 @@
 ---
 layout: tutorial_page
-permalink: /Metagenomics_2018/schedule
+permalink: /Metagenomics_2018_schedule
 title: Metagenomics
 header1: Workshop Pages for Students
 header2: Metagenomic Data Analysis 2018 Schedule
 image: /site_images/CBW_Epigenome-data_icon.jpg
-home: https://bioinformaticsdotca.github.io/Metagenomics_2017
+home: https://bioinformaticsdotca.github.io/Metagenomics_2018
 ---
 
 Day 0 June 4: Introduction to Unix 5:00 pm
