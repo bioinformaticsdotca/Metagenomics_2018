@@ -76,8 +76,6 @@ Complete the [introductory tutorial to Cytoscape](http://opentutorials.cgl.ucsf.
 
 * Filtering and Editing in Cytoscape 
 
-[&uarr;](#back_to_top)
-
 ## Before coming to the workshop, read these:
 
   * [Bioinformatics for the Human Microbiome Project](http://www.ncbi.nlm.nih.gov/pubmed/23209389)
