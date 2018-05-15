@@ -16,7 +16,7 @@ Day 0 June 4: Introduction to Unix 5:00 pm
 | 8:30 | Welcome (Ann) | 8:30 | Module 4: Metagenomic Taxonomic and Functional Composition (Morgan Langille) | 8:30 | Module 6: Metatranscriptomics (John Parkinson) |    
 | 9:00 | Module 1: Introduction to Metagenomics (Will Hsiao) | 9:30 | Module 4 lab | 9:30 | Module 6 lab |    
 | 9:45 | Coffee Break | 10:30 | Coffee Break | 10:30 | Coffee Break |   
-| 10:15 | Discussion: Sample Collection and Storage (Dave Guttman) | | |
+| 10:15 | Discussion: Sample Collection and Storage (Pauline Wang) | | |
 | 11:15 | Module 2: Marker Gene-Based Analysis (Will Hsiao) | 11:00 | Module 4 lab continued | 11:00 | Module 6 lab continued | 
 | 12:15 | Unconference Lunch | 12:30 | Lunch | 12:00 | Lunch |  
 | 1:30 | Module 2 lab | 1:30 | Module 5: Pulling Genomes from Metagenomes (Laura Hug) | 1:00 | Module 7: Statistical Tests for Metagenomics (Rob Beiko) |  
