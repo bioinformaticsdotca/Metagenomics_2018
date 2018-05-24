@@ -46,7 +46,7 @@ https://github.com/dparks1134/STAMP/releases/download/v2.0.9/STAMP_2_0_9.exe
 3. Install PIP by opening a “Terminal” Window (Application->Utilities->Terminal) and then type the following command (and press enter):
 `sudo easy_install pip`  
 
-4.Install numpy (again type the following command in the Terminal Window):
+4. Install numpy (again type the following command in the Terminal Window):
 `pip install numpy`  
 
 5. Install scipy (again type the following command in the Terminal Window):
