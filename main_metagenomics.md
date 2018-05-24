@@ -39,23 +39,23 @@ http://chianti.ucsd.edu/cytoscape-3.4.0/
 https://github.com/dparks1134/STAMP/releases/download/v2.0.9/STAMP_2_0_9.exe
  
 *Mac OSX*
-1. Install Xcode/Command line Tools:  https://developer.apple.com/xcode/downloads/
-2. Install the Anaconda package for Python v2.7: http://continuum.io/downloads
+1. Install Xcode/Command line Tools:  https://developer.apple.com/xcode/downloads/  
+2. Install the Anaconda package for Python v2.7: http://continuum.io/downloads  
 3. Install PIP by opening a “Terminal” Window (Application->Utilities->Terminal) and then type the following command (and press enter):
-sudo easy_install pip
+`sudo easy_install pip`  
 4.Install numpy (again type the following command in the Terminal Window):
-pip install numpy 
-5. Install a scipy (again type the following command in the Terminal Window):
-conda install scipy=0.14.0
+`pip install numpy`  
+5. Install scipy (again type the following command in the Terminal Window):
+`conda install scipy=0.14.0`  
 6. Install STAMP (again type the following command in the Terminal Window):
-pip install STAMP 
-7. Open new terminal session and type “STAMP” to launch the graphical interface.
+`pip install STAMP`  
+7. Open new terminal session and type “STAMP” to launch the graphical interface.  
  
 *Linux*
 1. From a Terminal/Console window type:
-sudo apt-get install freetype* python-pip python-dev python-numpy python-scipy python-matplotlib
+`sudo apt-get install freetype* python-pip python-dev python-numpy python-scipy python-matplotlib`  
 2. Then type:
-sudo pip install STAMP
+`sudo pip install STAMP`  
 
 10) Anvi'o: (http://merenlab.org/2016/06/26/installation-v2/)  
 
