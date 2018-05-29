@@ -8,7 +8,6 @@ image: /site_images/CBW_Epigenome-data_icon.jpg
 home: https://bioinformaticsdotca.github.io/Metagenomics_2018
 ---
 
-Day 0 June 4: Introduction to Unix 5:00 pm
 
 | | **Day 1 June 5** | | **Day 2 June 6** | | **Day 3 June 7** |    
 | :---: | :---: | :---: | :---: | :---: | :---: |  
