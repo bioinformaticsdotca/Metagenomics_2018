@@ -24,7 +24,7 @@ home: https://bioinformaticsdotca.github.io/Metagenomics_2018
 | 3:30 | Module 3: PICRUSt (Morgan Langille) | 4:00 | Module 5 lab continued | 3:30 | Module 8: Biomarker Selection (Fiona Brinkman) |   
 | 4:00 | Module 3 lab | | | 4:30 | Survey and Closing Remarks |    
 | 5:00 | Coffee Break | 5:00 | Coffee Break | | |   
-| 5:30 | Integrated assignment | 5:30 | Integrated assignment | | |  
-| 8:00 | Social ? | | | | |  
+| 5:30 | Social | 5:30 | Integrated assignment | | |  
+ 
 
   
