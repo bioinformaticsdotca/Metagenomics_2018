@@ -21,8 +21,8 @@ home: https://bioinformaticsdotca.github.io/Metagenomics_2018
 | 1:30 | Module 2 lab | 1:30 | Module 5: Pulling Genomes from Metagenomes (Laura Hug) | 1:00 | Module 7: Statistical Tests for Metagenomics (Rob Beiko) |  
 | | | 2:30 | Module 5 lab | 2:00 | Module 7 lab |  
 | 3:00 | Coffee Break | 3:30 | Coffee Break | 3:00 | Coffee Break | 
-| 3:30 | Module 3: PICRUSt (Morgan Langille) | 4:00 | Module 5 lab continued | 3:30 | Module 8: Biomarker Selection (Fiona Brinkman) |   
-| 4:00 | Module 3 lab | | | 4:30 | Survey and Closing Remarks |    
+| 3:30 | Module 3: PICRUSt (Morgan Langille) | 4:00 | Module 5 lab continued | 3:30 | Module 8: Biomarkers and Closing Comments (Fiona Brinkman) |   
+| 4:00 | Module 3 lab | | | 4:30 | Survey |    
 | 5:00 | Coffee Break | 5:00 | Coffee Break | | |   
 | 5:30 | Social | 5:30 | Integrated assignment | | |  
  
