@@ -17,7 +17,7 @@ Pre-readings, pre-work, and laptop setup instructions can be found [here](https:
 
 We are using Google Classroom for discussion. Join the Class at https://classroom.google.com, select the "+" symbol in the upper right corner, click on "Join Class" and enter the class code provided to you.
 
-The full course notes are available as a [single PDF]().  
+The full course notes are available as a [single PDF](https://drive.google.com/open?id=1y7f1DRGxSp3W5glUUmDY2E5v6d_m-A1k).  
 
 ***
 
@@ -31,7 +31,7 @@ The full course notes are available as a [single PDF]().
 
 *<font color="#827e9c">Will Hsiao</font>* 
 
-[Lecture]()   
+[Lecture](https://drive.google.com/open?id=1duCGV_RVxBUCEHFjJtCHJOAN_-iVW13w)   
 
 ## Discussion: Sample Collection and Storage
 
@@ -41,13 +41,13 @@ The full course notes are available as a [single PDF]().
 
 *<font color="#827e9c">FWill Hsiao</font>* 
 
-[Lecture]()
+[Lecture](https://drive.google.com/open?id=1HHe9CCUwioF9PZjy60AUwJQ3QS6i1yPA)
 
 ### Introduction to Cloud Computing
 
-*<font color="#827e9c">Obi Griffith</font>* 
+*<font color="#827e9c">Zhibin Lu</font>* 
 
-[Lecture](https://drive.google.com/open?id=16iGwgvG2qBe2uWG6EmE63MDUF9wmWCx4)
+[Lecture](https://drive.google.com/open?id=14_05fpg9mIbqU1fQQdTZ5EZXSwD_5OqA)
 
 * We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://main.oicrcbw.ca/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://main.oicrcbw.ca/private/CBWNY.ppk).
 
@@ -59,7 +59,7 @@ The full course notes are available as a [single PDF]().
 
 *<font color="#827e9c">Morgan Langille</font>* 
 
-[Lecture]()  
+[Lecture](https://drive.google.com/open?id=1VSZFN7i95zo-VLUuVJpvhUETg0ixcq3x)  
 
 [Lab Practical]()  
 
@@ -71,7 +71,7 @@ The full course notes are available as a [single PDF]().
 
 *<font color="#827e9c">Gavin Douglas</font>* 
 
-[Lecture]()  
+[Lecture](https://drive.google.com/open?id=1e8r2hV8GF-JH_r7hcufwqaeTSJQUZJ0J)  
 
 [Lab Practical]()  
  
@@ -79,7 +79,7 @@ The full course notes are available as a [single PDF]().
 
 *<font color="#827e9c">Laura Hug</font>* 
 
-[Lecture]()  
+[Lecture](https://drive.google.com/open?id=1QFjObDGVrULENRRHiDGvvk44zx92X5K0)  
 
 [Lab Practical]()  
 
@@ -97,7 +97,7 @@ The full course notes are available as a [single PDF]().
 
 *<font color="#827e9c">John Parkinson</font>* 
 
-[Lecture]()  
+[Lecture](https://drive.google.com/open?id=1ZWlcw0BR-Ys7mb3uuJmSAvqtbpJ4oPOZ)  
 
 [Lab Practical]()  
 
@@ -106,7 +106,7 @@ The full course notes are available as a [single PDF]().
 
 *<font color="#827e9c">Rob Beiko</font>* 
 
-[Lecture]()  
+[Lecture](https://drive.google.com/open?id=1I74RHWUS_mKZpVr9cHtZ7qz-fjG3Ftjk)  
 
 [Lab Practical]()  
 
@@ -114,6 +114,6 @@ The full course notes are available as a [single PDF]().
 
 *<font color="#827e9c">Fiona Brinkman</font>* 
 
-[Lecture]()  
+[Lecture](https://drive.google.com/open?id=1N920bdCxc62T_7SW2lPCWdF_5ZU0gq4l)  
 
 ***
