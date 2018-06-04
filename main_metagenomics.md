@@ -61,7 +61,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 [Lecture](https://drive.google.com/open?id=1VSZFN7i95zo-VLUuVJpvhUETg0ixcq3x)  
 
-[Lab Practical]()  
+[Lab Practical](https://github.com/LangilleLab/microbiome_helper/wiki/CBW-2018-PICRUSt2-Tutorial)  
 
 ***
 
@@ -73,7 +73,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 [Lecture](https://drive.google.com/open?id=1e8r2hV8GF-JH_r7hcufwqaeTSJQUZJ0J)  
 
-[Lab Practical]()  
+[Lab Practical](https://github.com/LangilleLab/microbiome_helper/wiki/CBW-2018-Metagenomic-Taxonomic-and-Functional-Composition-Tutorial)  
  
 ## Module 5: Pulling Genomes from Metagenomes
 
