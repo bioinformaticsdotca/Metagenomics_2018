@@ -99,7 +99,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 [Lecture](https://drive.google.com/open?id=1ZWlcw0BR-Ys7mb3uuJmSAvqtbpJ4oPOZ)  
 
-[Lab Practical]()  
+[Lab Practical](https://github.com/ParkinsonLab/Metatranscriptome-Workshop)  
 
 
 ## Module 7: Statistical Tests for Metagenomics
