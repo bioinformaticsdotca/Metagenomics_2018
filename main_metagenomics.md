@@ -11,82 +11,109 @@ image: /site_images/CBW_Metagenome_icon.jpg
 
 Welcome to Analysis of Metagenomic Data.
 
-Preparation details coming soon.
+The course schedule can be found [here](https://bioinformaticsdotca.github.io/Metagenomics_2018_schedule).
 
-## Install these tools before the workshop:
+Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io/metagenomics_2018_prework).  
 
-1) A file decompression tool. For Windows/PC – 7zip (http://www.7-zip.org/). For Linux – gzip (http://www.gzip.org). For Mac – already there.
+We are using Google Classroom for discussion. Join the Class at https://classroom.google.com, select the "+" symbol in the upper right corner, click on "Join Class" and enter the class code provided to you.
+
+The full course notes are available as a [single PDF]().  
+
+***
+
+# Day 1 <a id="day1"></a>
+
+##  Welcome 
+
+  *<font color="#827e9c">Ann Meyer</font>*
+
+## Module 1: Introduction to Metagenomics
+
+*<font color="#827e9c">Will Hsiao</font>* 
+
+[Lecture]()   
+
+## Discussion: Sample Collection and Storage
+
+*<font color="#827e9c">Pauline Wang</font>* 
+
+## Module 2: Marker Gene-Based Analysis
+
+*<font color="#827e9c">FWill Hsiao</font>* 
+
+[Lecture]()
+
+### Introduction to Cloud Computing
+
+*<font color="#827e9c">Obi Griffith</font>* 
+
+[Lecture](https://drive.google.com/open?id=16iGwgvG2qBe2uWG6EmE63MDUF9wmWCx4)
+
+* We have set up 30 instances on the Amazon cloud - one for each student. In order to log in to your instance, you will need a security certificate. If you plan on using Linux or Mac OS X, please download [this certificate](http://main.oicrcbw.ca/private/CBWNY.pem). Otherwise if you plan on using Windows (with Putty and Winscp), please download [this certificate](http://main.oicrcbw.ca/private/CBWNY.ppk).
+
+* Detail instructions can be found [here](https://bioinformaticsdotca.github.io/AWS_setup).
+
+[Lab Practical]()  
+
+## Module 3: PICRUSt
+
+*<font color="#827e9c">Morgan Langille</font>* 
+
+[Lecture]()  
+
+[Lab Practical]()  
+
+***
+
+# Day 2 <a id="day2"></a>
+
+## Module 4: Metagenomic Taxanomic and Functional Composition
+
+*<font color="#827e9c">Gavin Douglas</font>* 
+
+[Lecture]()  
+
+[Lab Practical]()  
  
-2) A robust internet browser such as Firefox or Safari (Internet Explorer and Chrome are not recommended because of Java issues).
- 
-3) Install Cytoscape 3.4.0: http://www.cytoscape.org/
-http://chianti.ucsd.edu/cytoscape-3.4.0/
- 
-4) A PDF viewer (Adobe Acrobat or equivalent).
- 
-5) Install Java -The visualization program that we will be using (IGV) requires Java. Check if you have Java installed: https://www.java.com/verify/ and download Java if you do not have it installed.
- 
-6) Integrative Genomics Viewer (IGV) - Once java is installed, go to http://www.broadinstitute.org/igv/ and register in order to get access to the downloads page. Once you have gained access to the downloads page, click on the appropriate launch button that matches the amount of memory available on your laptop (if you have space, 1.2GB is good, more is better). Chrome: Chrome does not launch "java webstart" files by default. Instead, the launch buttons below will download a "jnlp" file. This should appear in the lower left corner of the browser. Double-click the downloaded file to run. Windows users: To run with more than 1.2 GB you must install 64-bit Java. This is often not installed by default even with the latest Windows 7 machines with many GB of memory. In general trying to launch with more memory than your OS/Java combination supports will result in the obscure error "could not create virtual machine".
- 
-7) SSH client - Mac and Linux users already have a command line ssh program that can be run from the terminal. For Windows users, please download PuTTY:http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
- 
-8) SCP/SFTP client - We will be moving data from the servers to the student laptops for visualization. Mac and Linux users already have a command line scp and sftp program. For Windows users, please install WinSCP: http://winscp.net/eng/download.php
- 
-9) Install STAMP for your machine.
+## Module 5: Pulling Genomes from Metagenomes
 
-*Windows*
-1. Download and install STAMP:
-https://github.com/dparks1134/STAMP/releases/download/v2.0.9/STAMP_2_0_9.exe
- 
-*Mac OSX*
-1. Install Xcode/Command line Tools:  https://developer.apple.com/xcode/downloads/  
+*<font color="#827e9c">Laura Hug</font>* 
 
-2. Install the Anaconda package for Python v2.7: http://continuum.io/downloads  
+[Lecture]()  
 
-3. Install PIP by opening a “Terminal” Window (Application->Utilities->Terminal) and then type the following command (and press enter):
-`sudo easy_install pip`  
+[Lab Practical]()  
 
-4. Install numpy (again type the following command in the Terminal Window):
-`pip install numpy`  
+## Integrated Assignment
 
-5. Install scipy (again type the following command in the Terminal Window):
-`conda install scipy=0.14.0`  
+[Assignment Questions]()  
 
-6. Install STAMP (again type the following command in the Terminal Window):
-`pip install STAMP`  
+[Assignment Answers]()  
 
-7. Open new terminal session and type “STAMP” to launch the graphical interface.  
- 
-*Linux*
-1. From a Terminal/Console window type:
-`sudo apt-get install freetype* python-pip python-dev python-numpy python-scipy python-matplotlib`  
+***
 
-2. Then type:
-`sudo pip install STAMP`  
+# Day 3 <a id="day3"></a>
 
-10) Anvi'o: (http://merenlab.org/2016/06/26/installation-v2/)  
+## Module 6: Metatranscriptomics
 
-## Do these tutorials before the workshop:
+*<font color="#827e9c">John Parkinson</font>* 
 
-**Command line tutorials**
+[Lecture]()  
 
-* [UNIX Bootcamp](http://rik.smith-unna.com/command_line_bootcamp/?id=9xnbkx6eaof)
-* [Unix Cheat sheet](http://www.rain.org/~mkummel/unix.html) 
+[Lab Practical]()  
 
-**Cytoscape Preparation tutorials**  
 
-Complete the [introductory tutorial to Cytoscape](http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape3)
+## Module 7: Statistical Tests for Metagenomics
 
-* Introduction to Cytoscape - User Interface
+*<font color="#827e9c">Rob Beiko</font>* 
 
-* Introduction to Cytoscape - Welcome Screen
+[Lecture]()  
 
-* Filtering and Editing in Cytoscape 
+[Lab Practical]()  
 
-## Before coming to the workshop, read these:
+## Module 8: Biomarkers and Bringing It All Together
 
-  * [Bioinformatics for the Human Microbiome Project](http://www.ncbi.nlm.nih.gov/pubmed/23209389)
-  
-  * [Microbiome science needs a healthy dose of scepticism](http://www.ncbi.nlm.nih.gov/pubmed/25143098)
-  
-  * [Methylotrophic methanogenic Thermoplasmata implicated in reduced methane emissions from bovine rumen](http://www.ncbi.nlm.nih.gov/pubmed/23385573)
+*<font color="#827e9c">Fiona Brinkman</font>* 
+
+[Lecture]()  
+
+***
