@@ -81,7 +81,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 [Lecture](https://drive.google.com/open?id=1QFjObDGVrULENRRHiDGvvk44zx92X5K0)  
 
-[Lab Practical]()  
+[Lab Practical](http://merenlab.org/tutorials/infant-gut/)  
 
 ## Integrated Assignment
 
