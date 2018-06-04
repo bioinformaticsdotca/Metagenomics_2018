@@ -12,7 +12,7 @@ home: https://bioinformaticsdotca.github.io/Metagenomics_2018
 | | **Day 1 June 5** | | **Day 2 June 6** | | **Day 3 June 7** |    
 | :---: | :---: | :---: | :---: | :---: | :---: |  
 | 8:00 | Registration and Breakfast | 8:00 | Breakfast | 8:00 | Breakfast |        
-| 8:30 | Welcome (Ann) | 8:30 | Module 4: Metagenomic Taxonomic and Functional Composition (Morgan Langille) | 8:30 | Module 6: Metatranscriptomics (John Parkinson) |    
+| 8:30 | Welcome (Ann) | 8:30 | Module 4: Metagenomic Taxonomic and Functional Composition (Gavin Douglas) | 8:30 | Module 6: Metatranscriptomics (John Parkinson) |    
 | 9:00 | Module 1: Introduction to Metagenomics (Will Hsiao) | 9:30 | Module 4 lab | 9:30 | Module 6 lab |    
 | 9:45 | Coffee Break | 10:30 | Coffee Break | 10:30 | Coffee Break |   
 | 10:15 | Discussion: Sample Collection and Storage (Pauline Wang) | | |
