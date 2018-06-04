@@ -39,7 +39,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 ## Module 2: Marker Gene-Based Analysis
 
-*<font color="#827e9c">FWill Hsiao</font>* 
+*<font color="#827e9c">Will Hsiao</font>* 
 
 [Lecture](https://drive.google.com/open?id=1HHe9CCUwioF9PZjy60AUwJQ3QS6i1yPA)
 
