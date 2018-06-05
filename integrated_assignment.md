@@ -119,10 +119,10 @@ Hints:
 
 Using this PCL file you can run some analyses on the pathway abundances using built-in HUMAnN2 functions.
 
-Make a stacked barchart of ```PWY-6609: adenine and adenosine salvage III``` with samples sorted by mammalian species.
+**Q7: Make a stacked barchart of ```PWY-6609: adenine and adenosine salvage III``` with samples sorted by mammalian species. Is there evidence that this pathway differs in abundance in the Canidae compared to the other mammals?**
 
 HUMAnN2 also provides an in-house way to test for statistical associations between metadata and the features with the command ```humann2_associate```.
 As before, take a look at the description of inputs to this command with ```humann2_associate --help | less```. Run associations with this program on the PCL file
 we made above.
 
-**Q7: What Q-value was returned for ```ARGININE-SYN4-PWY: L-ornithine de novo  biosynthesis```?**
+**Q8: What Q-value was returned for ```ARGININE-SYN4-PWY: L-ornithine de novo  biosynthesis```?**
