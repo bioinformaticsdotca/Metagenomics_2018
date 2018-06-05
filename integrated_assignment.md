@@ -38,10 +38,10 @@ Take a look at the files in this directory. You should see the log output files
 for kneaddata, the merged MetaPhlAn2 table, and the three key HUMAnN2
 output files.
 
-**QX: Take a look at the kneaddata output first - which sample has the fewest reads
+**Q1: Take a look at the kneaddata output first - which sample has the fewest reads
 after pre-processing and how many paired-end reads does it have?**
 
-**QX: Now inspect the MetaPhlAn2 output file - how many species were identified?**
+**Q2: Now inspect the MetaPhlAn2 output file - how many species were identified?**
 
 We'll read the MetaPhlAn2 table into R now to better explore the species
 abundances. Since we're only interested in the species-level abundances, we'll
@@ -66,7 +66,7 @@ mgs_sp <- read.table("/path/to/mgs_output/metaphlan2_merged_species.txt",
 At all taxonomic levels in the MetaPhlAn2 output the relative abundance should
 sum to 100.
 
-**QX: Use the ```ColSums``` R function on this input dataframe. Which sample's
+**Q3: Use the ```ColSums``` R function on this input dataframe. Which sample's
 species relative abundances are furthest from summing to 100?**
 
 Some post-processing must have already been done on this table! You can use
@@ -85,9 +85,9 @@ with abundance over 25% in each sample.
 colSums(mgs_sp_relab > 25)
 ```
 
-**QX: Which sample has the fewest observed species?**
+**Q4: Which sample has the fewest observed species?**
 
-**QX: In this sample with the fewest observed species what genus explains the vast
+**Q5: In this sample with the fewest observed species what genus explains the vast
 majority of taxonomically annotated reads?** Note: you could either use R or you could
 open the species abundance table you created in Excel to answer this question.
 
@@ -106,29 +106,23 @@ with this command:
 cor.test(mgs_sp_relab$A1, mgs_sp_relab$A2, method="spearman")
 ```
 
-**QX: What's the Spearman's correlation coefficient between the coyote samples C1 and C2? Between C1 and the beaver sample B1?**
-
-A heatmap is also an excellent way to take a first look at your data. Fortunately
-MetaPhlAn2 provides this functionality out of the box with the script ```metaphlan_hclust_heatmap.py```.
-
-Take a look at the help description of this tool with (**back on the Linux command-line**):
-
-```
-metaphlan_hclust_heatmap.py --help | less
-```
-
-**QX: Make a heatmap of the _genera_ relative abundances across your samples.
-Keep all other options of this script as default.**
+**Q6: What's the Spearman's correlation coefficient between the coyote samples C1 and C2? Between C1 and the beaver sample B1?**
 
 Now let's take a look at the HUMAnN2 output files. Using similar commands as in
-the Module 4 tutorial make a PCL table for this dataset (using the metadata file here: ```/home/ubuntu/CourseData/metagenomics/integrated_assignment/sample_species_links.txt```)
+the Module 4 tutorial normalize the pathway abundances to be relative abundances.
+Then create a PCL table for this dataset (using the metadata file here: ```/home/ubuntu/CourseData/metagenomics/integrated_assignment/sample_species_links.txt```)
 
-Using this PCL file you can run some analyses on the pathway abundances using built-in HUMAnN2 functions. However, first you'll need to normalize the pathway abundances as done in the Module 4 tutorial.
+Hints: 
+* The above metadata file is **tab**, not space, delimited.
+* You can get the overlapping columns between the pathway abundance and metadata file with this command: ```overlap_col <- colnames(in_meta_t)[which(colnames(in_meta_t) %in% colnames(in_path))]```
+* The pathway abundance columns don't end in "\_Abundance" in this example.
 
-**QX: Make a stacked barchart of ```ARGININE-SYN4-PWY: L-ornithine de novo  biosynthesis``` with samples sorted by mammalian species.**
+Using this PCL file you can run some analyses on the pathway abundances using built-in HUMAnN2 functions.
+
+Make a stacked barchart of ```PWY-6609: adenine and adenosine salvage III``` with samples sorted by mammalian species.
 
 HUMAnN2 also provides an in-house way to test for statistical associations between metadata and the features with the command ```humann2_associate```.
 As before, take a look at the description of inputs to this command with ```humann2_associate --help | less```. Run associations with this program on the PCL file
 we made above.
 
-**QX: Is the pathway ```VALSYN-PWY: L-valine biosynthesis``` significantly different depending on the species metadata?**
+**Q7: What Q-value was returned for ```ARGININE-SYN4-PWY: L-ornithine de novo  biosynthesis```?**
