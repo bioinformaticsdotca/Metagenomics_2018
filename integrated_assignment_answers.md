@@ -16,3 +16,5 @@ These answers are for the CBW Metagenomics [integrated assignment](https://githu
 1. _Pseudomonas_.
 
 1. Between C1 and C2: 0.6504148. Between C1 and B1: -0.159787 (and not significant!)
+
+1. 0.1038
