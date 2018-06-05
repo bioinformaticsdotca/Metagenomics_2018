@@ -55,7 +55,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 * Detail instructions can be found [here](https://bioinformaticsdotca.github.io/AWS_setup).
 
-[Lab Practical]()  
+[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1aFCh0EfrKW0rH3xkMWhzuhcnTqHZ4KiC/view?usp=sharing)  
 
 ## Module 3: PICRUSt
 
