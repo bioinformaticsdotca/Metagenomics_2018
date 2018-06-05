@@ -18,17 +18,16 @@ of processing the raw shotgun metagenomics data.
 
 ## Shotgun metagenomics
 
-Several of the samples we analyzed about were also sequenced with shotgun
-metagenomics. Rather than have you run these files through the pipeline
+Several of the samples we analyzed above were also sequenced using shotgun
+metagenomics sequencing. Rather than have you run these files through the pipeline
 yourself, we've already run the data and you can copy the output files to
-your working directory:
+your working directory with this command:
 
 ```
 cp -R /home/ubuntu/CourseData/metagenomics/integrated_assignment/mgs_output/ ./
 ```
 
-Since copied this directory where we don't have permissions to write we wont
-be able to write to the copied directory either. Run this command to fix the
+You won't have permissions to write to thi directory currently. Run this command to fix the
 permissions:
 
 ```
