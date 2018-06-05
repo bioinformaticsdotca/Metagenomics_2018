@@ -13,7 +13,7 @@ Welcome to Analysis of Metagenomic Data.
 
 The course schedule can be found [here](https://bioinformaticsdotca.github.io/Metagenomics_2018_schedule).
 
-Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io/metagenomics_2018_prework).  
+Pre-readings, pre-work, and laptop setup instructions can be found [here](https://bioinformaticsdotca.github.io/metagenomics_2018_prework).<a id="preworkshop"></a>  
 
 We are using Google Classroom for discussion. Join the Class at https://classroom.google.com, select the "+" symbol in the upper right corner, click on "Join Class" and enter the class code provided to you.
 
@@ -36,6 +36,8 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 ## Discussion: Sample Collection and Storage
 
 *<font color="#827e9c">Pauline Wang</font>* 
+
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1N2nRFJql0uwt7ioPhEc7LWOdGP_v6GqF/view?usp=sharing)
 
 ## Module 2: Marker Gene-Based Analysis
 
