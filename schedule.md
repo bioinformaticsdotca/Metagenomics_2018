@@ -5,7 +5,7 @@ title: Metagenomics
 header1: Workshop Pages for Students
 header2: Metagenomic Data Analysis 2018 Schedule
 image: /site_images/CBW_Epigenome-data_icon.jpg
-home: https://bioinformaticsdotca.github.io/Metagenomics_2018
+home: https://bioinformaticsdotca.github.io/metagenomics_2018
 ---
 
 
