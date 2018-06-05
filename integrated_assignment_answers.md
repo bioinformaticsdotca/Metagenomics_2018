@@ -17,4 +17,6 @@ These answers are for the CBW Metagenomics [integrated assignment](https://githu
 
 1. Between C1 and C2: 0.6504148. Between C1 and B1: -0.159787 (and not significant!)
 
+1. Yes this pathway is at high relative abundance in both artic wolves and coyotes, but is low or absent in the other mammals.
+
 1. 0.1038
