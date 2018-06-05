@@ -106,7 +106,7 @@ with this command:
 cor.test(mgs_sp_relab$A1, mgs_sp_relab$A2, method="spearman")
 ```
 
-**QX: What's the Spearman's correlation coefficient between the coyote samples C1 and C2? Between C1 and the beaver sample B1?
+**QX: What's the Spearman's correlation coefficient between the coyote samples C1 and C2? Between C1 and the beaver sample B1?**
 
 A heatmap is also an excellent way to take a first look at your data. Fortunately
 MetaPhlAn2 provides this functionality out of the box with the script ```metaphlan_hclust_heatmap.py```.
