@@ -232,16 +232,7 @@ cor.test(mgs_sp_relab$A1, mgs_sp_relab$A2, method="spearman")
 
 **Q6: What's the Spearman's correlation coefficient between the coyote samples C1 and C2? Between C1 and the beaver sample B1?**
 
-Now let's take a look at the HUMAnN2 output files. Using similar commands as in
-the Module 4 tutorial normalize the pathway abundances to be relative abundances.
-Then create a PCL table for this dataset (using the metadata file here: ```/home/ubuntu/CourseData/metagenomics/integrated_assignment/sample_species_links.txt```)
-
-Hints: 
-* The above metadata file is **tab**, not space, delimited.
-* You can get the overlapping columns between the pathway abundance and metadata file with this command: ```overlap_col <- colnames(in_meta_t)[which(colnames(in_meta_t) %in% colnames(in_path))]```
-* The pathway abundance columns don't end in "\_Abundance" in this example.
-
-If you're really having trouble with this step you can download the PCL file [here](https://www.dropbox.com/s/wyzvo787w0wvmss/humann2_pathabundance_relab_meta.pcl?dl=1).
+Now let's take a look at the HUMAnN2 output files. You can download the PCL file [here](https://www.dropbox.com/s/wyzvo787w0wvmss/humann2_pathabundance_relab_meta.pcl?dl=1).
 
 Using this PCL file you can run some analyses on the pathway abundances using built-in HUMAnN2 functions.
 
