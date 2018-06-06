@@ -15,7 +15,7 @@ To save time, we'll be starting with output files from each pipeline rather than
 
 # 16S rRNA Gene Analyses
 
-In this part of the integrated assignment, we will be analyzing a new 16S sequencing dataset of mammalian stool microbiome using what we learned in module 3. We will be starting with a FASTA file containing the ASV sequences, and a tab-delimited file containing the ASV abundance data. The same tools will be used, but the commands to use them will not all be provided! One part of the exercise is to use the correct commands and parameters, and the other is to read and understand the main output files.
+In this part of the integrated assignment, we will be analyzing a new 16S sequencing dataset of mammalian stool microbiomes using what we learned in module 3. We will be starting with a FASTA file containing the ASV sequences, and a tab-delimited file containing the ASV abundance data. The same tools will be used, but the commands to use them will not all be provided! One part of the exercise is to use the correct commands and parameters, and the other is to read and understand the main output files.
 
 We encourage you to not refer back to the commands provided in the presented modules, but instead to read the help functions of each function (unless you're stuck!).
 
