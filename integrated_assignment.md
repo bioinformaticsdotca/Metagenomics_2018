@@ -11,7 +11,7 @@ The dataset we'll be running for this assignment is sequencing data from
 mammalian stool samples from the Shubenacadie Wildlife Park in Nova Scotia,
 Canada. This data was published as part of [this paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189404).
 We'll be processing the raw 16S data using the commands you learned yesterday.
-To save time, you'll be starting with output files from each pipeline rather than raw FASTQs.
+To save time, we'll be starting with output files from each pipeline rather than raw FASTQs.
 
 # 16S rRNA Gene Analyses
 
