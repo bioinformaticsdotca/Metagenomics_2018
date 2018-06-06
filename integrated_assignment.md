@@ -1,6 +1,4 @@
-# UNDER CONSTRUCTION
-
-## Introduction
+# Introduction
 
 By now you've been introduced to a few pipelines for analyzing both amplicon
 and shotgun metagenomics sequencing data. For this assignment we'll be
@@ -16,10 +14,125 @@ We'll be processing the raw 16S data using the commands you learned yesterday.
 To save time, we'll be analyzing the output of HUMAnN2 and MetaPhlAn2 instead
 of processing the raw shotgun metagenomics data.
 
-## Shotgun metagenomics
+# 16S rRNA Gene Analyses
+
+In this part of the integrated assignment, we will be analyzing a new 16S sequencing dataset of human stool microbiome using what we learned in module 3. We will be starting with a FASTA file containing the ASV sequences, and a tab-delimited file containing the ASV abundance data. The same tools will be used, but the commands to use them will not all be provided! One part of the exercise is to use the correct commands and parameters, and the other is to read and understand the main output files.
+
+We encourage you to not refer back to the commands provided in the presented modules, but instead to read the help functions of each function (unless you're stuck!).
+
+### Exploring input files
+
+Similar to the Module 3 Lab, we have two starting files
+* ```16S_abun.tsv```
+* ```16S.fna```
+
+These two files can be downloaded using the following command:
+```
+wget  -O int_assignment_input.tar.gz https://www.dropbox.com/s/zk4j0exhgkcuy0k/int_assignment_input.tar.gz?dl=1
+```
+Note that this will download a compressed file to your current folder, so navigate to your working directory first. The files can be extracted with the following command:
+
+```
+tar -xzf int_assignment_input.tar.gz
+```
+
+**Q1: How many ASVs are in this data set?**
+
+Now we'll read these files into QIIME2.
+
+First, activate the QIIME2 environment:
+```
+source /usr/local/miniconda3/bin/activate qiime2-2018.4
+```
+
+Then to convert ("import") the BIOM table (in tab-delimited format) to a QIIME2 artifact, use these commands:
+
+To convert from tab-delimited to HDF5 BIOM:
+```
+biom convert -i 16S_abun.tsv -o 16S_abun.biom --to-hdf5
+```
+
+```
+qiime tools import \
+  --input-path 16S_abun.biom \
+  --type 'FeatureTable[Frequency]' \
+  --source-format BIOMV210Format \
+  --output-path 16S_abun.qza
+ ```
+Similarly, to convert the FASTA file to a QIIME2 artifact, you can use this command:
+``` 
+qiime tools import \
+  --input-path 16S.fna \
+  --output-path 16S_sequences.qza \
+  --type 'FeatureData[Sequence]'
+```
+
+We wont be doing much with QIIME2, but to let you explore the basic analysis output you can run this command:
+
+```
+qiime diversity core-metrics   --i-table 16S_abun.qza   --p-sampling-depth 3220   --m-metadata-file sample_species_links.txt   --output-dir core-metrics-results
+```
+
+**Q2 TBD**
+**Q3 TBD**
+
+Next we'll run PICRUSt2 on this dataset. This analysis will consist of the same steps as module 3:
+
+1. Read placement
+2. Hidden state prediction
+3. Metagenome prediction
+4. Pathway inference
+
+### Activating the PICRUSt2 conda environment
+
+The picrust2 environment can be activated with the following command:
+```
+source /usr/local/miniconda3/bin/activate picrust2-dev
+```
+
+## Read placement
+
+First, we will be placing our ASVs within the reference tree using ```place_seqs.py```. The parameters required can be found with ```place_seqs.py --help```
+
+Remember what you name your output file, you'll need it soon! Also, you can use up to 4 threads on Amazon Cloud.
+
+**Q4: Nodes in the newick (.tre) output file are in the format X:Y. What do these two numbers mean?**
+
+## Hidden-state prediction
+
+The next step is hidden-state prediction for the abundances of gene families of interest using ```hsp.py```. Refer to the help section! 
+
+Note that we will be running in the maximum parsimony (mp) mode with a fixed seed for both the 16S gene as well as genes in all EC families. The EC predictions will be a bit slow, so it's recommended to do the 16S first. 
+
+**Q5: For the 16S gene, which ASV has the highest NSTI? What does this mean?**
+
+## Metagenome pipeline
+
+Next, we will be predicting the metagenomes of each sample from the predicted genomes using ```metagenome_pipeline.py```. Both the 16S and EC predictions from the previous step will be needed. Remember to consult the help function! The output will be in ```./metagenome_out```. 
+
+**Q6: What is in each of the output files?**
+
+**Q7: Which sample appears to have the highest capacity for the EC family 1.1.1.108? Hint: Use grep**
+
+## Pathway inference
+
+The final step is to infer pathway abundances based on the presence of gene families using ```run_minpath.py``` - a wrapper script for [MinPath](http://omics.informatics.indiana.edu/MinPath/).
+
+The MinPath map file we're using is at ```/usr/local/picrust2/MinPath/ec2metacyc_picrust_prokaryotic.txt```. What should be the input?
+
+**Q8: How many species in sample iGEM-4 contribute to the community-wide abundance of the '12DICHLORETHDEG' pathway?**
+
+Congratulations, you've completed the 16S section of this assignment! You can celebrate by deactivating the PICRUSt2 conda environment:
+```
+source /usr/local/miniconda3/bin/deactivate
+```
+
+# Shotgun metagenomics
 
 Several of the samples we analyzed above were also sequenced using shotgun
-metagenomics sequencing. Rather than have you run these files through the pipeline
+metagenomics sequencing. This assignment will expand on some of the questions
+in the module 4 tutorial and help you become comfortable running basic analyses on this data.
+Rather than have you run these files through the pipeline
 yourself, we've already run the data and you can copy the output files to
 your working directory with this command:
 
@@ -27,7 +140,7 @@ your working directory with this command:
 cp -R /home/ubuntu/CourseData/metagenomics/integrated_assignment/mgs_output/ ./
 ```
 
-You won't have permissions to write to thi directory currently. Run this command to fix the
+You won't have permissions to write to this directory currently. Run this command to fix the
 permissions:
 
 ```
@@ -116,6 +229,8 @@ Hints:
 * The above metadata file is **tab**, not space, delimited.
 * You can get the overlapping columns between the pathway abundance and metadata file with this command: ```overlap_col <- colnames(in_meta_t)[which(colnames(in_meta_t) %in% colnames(in_path))]```
 * The pathway abundance columns don't end in "\_Abundance" in this example.
+
+If you're really having trouble with this step you can download the PCL file [here](https://www.dropbox.com/s/wyzvo787w0wvmss/humann2_pathabundance_relab_meta.pcl?dl=1).
 
 Using this PCL file you can run some analyses on the pathway abundances using built-in HUMAnN2 functions.
 
