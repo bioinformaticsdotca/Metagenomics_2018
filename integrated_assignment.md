@@ -73,8 +73,13 @@ We wont be doing much with QIIME2, but to let you explore the basic analysis out
 qiime diversity core-metrics   --i-table 16S_abun.qza   --p-sampling-depth 3220   --m-metadata-file sample_species_links.txt   --output-dir core-metrics-results
 ```
 
-**Q2 TBD**
-**Q3 TBD**
+Take a look at the Bray-Curtis output visualization file.
+
+**Q2 What percent of variation is explained by PC1 on this plot?**
+
+Convert observed_otus_vector.qza output file to a textfile with the ```qiime tools export``` command.
+
+**Q3 Which sample has the highest richness (i.e. number of independent ASVs) and how many ASVs does it have?**
 
 Next we'll run PICRUSt2 on this dataset. This analysis will consist of the same steps as module 3:
 
