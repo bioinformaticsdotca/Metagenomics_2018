@@ -1,3 +1,16 @@
+---
+layout: tutorial_page
+permalink: /metagenomics_2018_IA
+title: Metagenomics
+header1: Workshop Pages for Students
+header2: Analysis of Metagenomic Data 2018 Integrated Assignment
+image: /site_images/CBW_Metagenome_icon.jpg
+home: https://bioinformaticsdotca.github.io/metagenomics_2018
+description: Analysis of Metagenomic Data 2018 Integrated Assignment
+author: Gavin Douglas, Javi Zhang, BJ Madeolu
+modified: June 6, 2018
+---
+
 # Introduction
 
 By now you've been introduced to a few pipelines for analyzing both amplicon
