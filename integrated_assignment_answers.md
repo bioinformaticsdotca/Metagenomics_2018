@@ -2,6 +2,11 @@ These answers are for the CBW Metagenomics [integrated assignment](https://githu
 
 ### 16S:
 
+1. 371
+
+1. 42.62% of the variation is explained by PC1
+
+1. Sample D2 has the highest richness (134 ASVs)
 
 ### MGS:
 
