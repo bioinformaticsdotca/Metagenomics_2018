@@ -35,6 +35,7 @@ Note that this will download a compressed file to your current folder, so naviga
 
 ```
 tar -xzf int_assignment_input.tar.gz
+cd int_assignment_input
 ```
 
 **Q1: How many ASVs are in this data set?**
