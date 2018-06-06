@@ -1,7 +1,7 @@
 ## Integrated Assignment, part I
 based on the Module 3 Lab Practical by Gavin Douglas and Morgan Langille
 
-In this part of the integrated assignment, we will be analyzing a new 16S sequencing dataset of human stool microbiome using what we learned in Module 3. We will be starting with the same input files - a FASTA sequence files containing the ASVs, and a TSV file containing the abundance data. The analysis will consist of the same steps:
+In this part of the integrated assignment, we will be analyzing a new 16S sequencing dataset of mammalian stool microbiome using what we learned in Module 3. We will be starting with the same input files - a FASTA sequence files containing the ASVs, and a TSV file containing the abundance data. The analysis will consist of the same steps:
 
 1. Read placement
 2. Hidden state prediction
@@ -67,6 +67,6 @@ The final step is to infer pathway abundances based on the presence of gene fami
 
 The MinPath map file we're using is at ```/usr/local/picrust2/MinPath/ec2metacyc_picrust_prokaryotic.txt```. What should be the input?
 
-**Question 6: How many species in sample iGEM-4 is predicted to contain to the '12DICHLORETHDEG' pathway?**
+**Question 6: How many species in sample iGEM-4 is predicted to contribute to the '12DICHLORETHDEG' pathway?**
 
 Congratulations, you've just analyzed your own 16S sequence data!
