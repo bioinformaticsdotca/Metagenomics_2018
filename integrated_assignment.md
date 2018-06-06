@@ -195,7 +195,7 @@ means append, whereas using ```>``` would overwrite the existing file).
 
 Once this file is created, you can read it into RStudio with this **R command**:
 
-```{r }
+```
 mgs_sp <- read.table("/path/to/mgs_output/metaphlan2_merged_species.txt",
                      header=T, sep="\t", comment.char = "", row.names=1)
 ```
@@ -209,7 +209,7 @@ species relative abundances are furthest from summing to 100?**
 Some post-processing must have already been done on this table! You can use
 this R command to re-normalize the table so that all columns sum to 100:
 
-```{r }
+```
 mgs_sp_relab <- data.frame(sweep(mgs_sp, 2, colSums(mgs_sp), `/`)) * 100
 ```
 
@@ -218,7 +218,7 @@ explore the data and identify outlier samples. R allows some easy ways to
 explore this dataset. For instance, the below command will return the number of species
 with abundance over 25% in each sample.
 
-```{r }
+```
 colSums(mgs_sp_relab > 25)
 ```
 
@@ -232,14 +232,14 @@ We would expect that stool samples from the same mammalian species would have
 more similar microbial profiles. This command will make a scatterplot between
 two Artic Wolf samples:
 
-```{r }
+```
 plot(mgs_sp_relab$A1, mgs_sp_relab$A2, pch=16, xlab="A1", ylab="A2")
 ```
 
 Similarly, the Spearman's correlation between these two samples can be calculated
 with this command:
 
-```{r }
+```
 cor.test(mgs_sp_relab$A1, mgs_sp_relab$A2, method="spearman")
 ```
 
