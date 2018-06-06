@@ -1,4 +1,17 @@
-These answers are for the CBW Metagenomics [integrated assignment](https://github.com/gavinmdouglas/Metagenomics_2018/blob/master/integrated_assignment.md).
+---
+layout: tutorial_page
+permalink: /metagenomics_2018_IA_answers
+title: Metagenomics
+header1: Workshop Pages for Students
+header2: Analysis of Metagenomic Data 2018 Integrated Assignment Answers
+image: /site_images/CBW_Metagenome_icon.jpg
+home: https://bioinformaticsdotca.github.io/metagenomics_2018
+description: Analysis of Metagenomic Data 2018 Integrated Assignment Answers
+author: Gavin Douglas, Javi Zhang, BJ Madeolu
+modified: June 6, 2018
+---
+
+These answers are for the CBW Metagenomics [integrated assignment](https://bioinformaticsdotca.github.io/metagenomics_2018_IA).
 
 ### 16S:
 
