@@ -21,6 +21,8 @@ We encourage you to not refer back to the commands provided in the presented mod
 
 ### Exploring input files
 
+As with the other tutorials you'll need to enter the ```/home/ubuntu/workspace``` folder and make a new folder for working on this assignment.
+
 Similar to the Module 3 Lab, we have two starting files
 * ```16S_abun.tsv```
 * ```16S.fna```
@@ -89,7 +91,11 @@ Next we'll run PICRUSt2 on this dataset. This analysis will consist of the same 
 
 ### Activating the PICRUSt2 conda environment
 
-The picrust2 environment can be activated with the following command:
+The picrust2 environment can be activated with the following command (after deactivating the qiime2 environment):
+```
+source /usr/local/miniconda3/bin/deactivate
+```
+
 ```
 source /usr/local/miniconda3/bin/activate picrust2-dev
 ```
