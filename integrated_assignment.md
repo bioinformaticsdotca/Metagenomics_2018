@@ -190,7 +190,7 @@ mgs_sp <- read.table("/path/to/mgs_output/metaphlan2_merged_species.txt",
 At all taxonomic levels in the MetaPhlAn2 output the relative abundance should
 sum to 100.
 
-**Q3: Use the ```ColSums``` R function on this input dataframe. Which sample's
+**Q3: Use the ```colSums``` R function on this input dataframe. Which sample's
 species relative abundances are furthest from summing to 100?**
 
 Some post-processing must have already been done on this table! You can use
