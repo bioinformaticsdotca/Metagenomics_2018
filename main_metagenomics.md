@@ -93,9 +93,9 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 ## Integrated Assignment
 
-[Assignment Questions](https://github.com/bioinformaticsdotca/Metagenomics_2018/blob/master/integrated_assignment.md)  
+[Assignment Questions](https://bioinformaticsdotca.github.io/metagenomics_2018_IA)  
 
-[Assignment Answers](https://github.com/bioinformaticsdotca/Metagenomics_2018/blob/master/integrated_assignment_answers.md)  
+[Assignment Answers](https://bioinformaticsdotca.github.io/metagenomics_2018_IA_answers)  
 
 ***
 
