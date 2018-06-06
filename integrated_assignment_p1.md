@@ -27,7 +27,7 @@ Similar to the Module 3 Lab, we have two starting files
 
 These two files can be downloaded using the following command:
 ```
-wget [url]
+wget https://www.dropbox.com/s/riskmxvrl5s7ksg/16s.tar.gz
 ```
 Note that this will download a compressed file to your current folder, so navigate to your working directory first. The files can be extracted with the following command:
 
