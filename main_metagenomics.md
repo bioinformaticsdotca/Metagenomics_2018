@@ -125,3 +125,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 [Lecture](https://drive.google.com/open?id=1N920bdCxc62T_7SW2lPCWdF_5ZU0gq4l)  
 
 ***
+
+Thank you for attending the Analysis of Metagenomic Data workshop! Help us make this workshop better by filling out [our survey](https://goo.gl/forms/8IT48rfPfnctNgpk1).
+
+***
