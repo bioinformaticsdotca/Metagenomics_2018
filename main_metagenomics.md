@@ -116,7 +116,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 [Lecture](https://drive.google.com/open?id=1I74RHWUS_mKZpVr9cHtZ7qz-fjG3Ftjk)  
 
-[Lab Practical]()  
+[Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1CHq0JzRnITIFwRIgD20WQkxhPfwpOKNr/view?usp=sharing)  
 
 ## Module 8: Biomarkers and Bringing It All Together
 
