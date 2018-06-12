@@ -5,6 +5,10 @@ title: Metagenomics
 header1: Workshop Pages for Students
 header2: Analysis of Metagenomic Data 2018
 image: /site_images/CBW_Metagenome_icon.jpg
+keywords: metagenomic data analysis, microbiome-focused experiments
+description: Course providing an introduction to metagenomic data analysis followed by hands-on practical tutorials demonstrating the use of metagenome analysis tools.
+instructors: William Hsiao, Morgan Langille, John Parkinson, Fiona Brinkman, Laura Hug, Robert Beiko
+length: 3 days
 ---
 
 # Welcome <a id="welcome"></a>
