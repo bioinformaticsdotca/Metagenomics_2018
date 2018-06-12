@@ -38,6 +38,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 *<font color="#827e9c">Will Hsiao</font>* 
 
 [Lecture](https://drive.google.com/open?id=1duCGV_RVxBUCEHFjJtCHJOAN_-iVW13w)   
+
 [Recording](https://www.youtube.com/watch?v=WnluVyJ58xw&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=2)
 
 ## Discussion: Sample Collection and Storage
@@ -51,6 +52,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 *<font color="#827e9c">Will Hsiao</font>* 
 
 [Lecture](https://drive.google.com/open?id=1HHe9CCUwioF9PZjy60AUwJQ3QS6i1yPA)
+
 [Recording](https://www.youtube.com/watch?v=uIjFg9X7d5U&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=3)
 
 ### Introduction to Cloud Computing
