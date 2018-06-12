@@ -38,6 +38,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 *<font color="#827e9c">Will Hsiao</font>* 
 
 [Lecture](https://drive.google.com/open?id=1duCGV_RVxBUCEHFjJtCHJOAN_-iVW13w)   
+[Recording](https://www.youtube.com/watch?v=WnluVyJ58xw&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=2)
 
 ## Discussion: Sample Collection and Storage
 
@@ -50,6 +51,7 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 *<font color="#827e9c">Will Hsiao</font>* 
 
 [Lecture](https://drive.google.com/open?id=1HHe9CCUwioF9PZjy60AUwJQ3QS6i1yPA)
+[Recording](https://www.youtube.com/watch?v=uIjFg9X7d5U&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=3)
 
 ### Introduction to Cloud Computing
 
@@ -69,6 +71,8 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 [Lecture](https://drive.google.com/open?id=1VSZFN7i95zo-VLUuVJpvhUETg0ixcq3x)  
 
+[Recording](https://www.youtube.com/watch?v=uIjFg9X7d5U&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=3)
+
 [Lab Practical](https://github.com/LangilleLab/microbiome_helper/wiki/CBW-2018-PICRUSt2-Tutorial)  
 
 ***
@@ -81,6 +85,8 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 [Lecture](https://drive.google.com/open?id=1e8r2hV8GF-JH_r7hcufwqaeTSJQUZJ0J)  
 
+[Recording](https://www.youtube.com/watch?v=O3Gek4BkR-A&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=5)
+
 [Lab Practical](https://github.com/LangilleLab/microbiome_helper/wiki/CBW-2018-Metagenomic-Taxonomic-and-Functional-Composition-Tutorial)  
  
 ## Module 5: Pulling Genomes from Metagenomes
@@ -88,6 +94,8 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 *<font color="#827e9c">Laura Hug</font>* 
 
 [Lecture](https://drive.google.com/open?id=1QFjObDGVrULENRRHiDGvvk44zx92X5K0)  
+
+[Recording](https://www.youtube.com/watch?v=BC9sxqAEs2s&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=6)
 
 [Lab Practical](http://merenlab.org/tutorials/infant-gut/)  
 
@@ -105,7 +113,9 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 
 *<font color="#827e9c">John Parkinson</font>* 
 
-[Lecture](https://drive.google.com/open?id=1ZWlcw0BR-Ys7mb3uuJmSAvqtbpJ4oPOZ)  
+[Lecture](https://drive.google.com/open?id=1ZWlcw0BR-Ys7mb3uuJmSAvqtbpJ4oPOZ)
+
+[Recording](https://www.youtube.com/watch?v=tBwM_CM2TW4&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=7)
 
 [Lab Practical](https://parkinsonlab.github.io/Metatranscriptome-Workshop/)  
 
@@ -115,6 +125,8 @@ The full course notes are available as a [single PDF](https://drive.google.com/o
 *<font color="#827e9c">Rob Beiko</font>* 
 
 [Lecture](https://drive.google.com/open?id=1I74RHWUS_mKZpVr9cHtZ7qz-fjG3Ftjk)  
+
+[Recording](https://www.youtube.com/watch?v=cdKmX2io8oA&t=0s&list=PL3izGL6oi0S_mH1C79CQNjVgCZy56WFoq&index=8)
 
 [Lab Practical](https://drive.google.com/a/bioinformatics.ca/file/d/1CHq0JzRnITIFwRIgD20WQkxhPfwpOKNr/view?usp=sharing)  
 
